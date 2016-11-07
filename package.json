@@ -1,0 +1,25 @@
+{
+  "name": "tokenn-js-sdk",
+  "version": "1.0.0",
+  "description": "Tokenn JS SDK for securing your apps with api keys system",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape test/**/*.js | ./node_modules/colortape/bin/colortape"
+  },
+  "keywords": [
+    "tokenn",
+    "secure",
+    "api",
+    "keys"
+  ],
+  "author": "Juan Camilo Guarin Peñaranda",
+  "license": "ISC",
+  "dependencies": {
+    "is": "^3.2.0",
+    "superagent": "^2.3.0"
+  },
+  "devDependencies": {
+    "colortape": "^0.1.1",
+    "tape": "^4.6.2"
+  }
+}
