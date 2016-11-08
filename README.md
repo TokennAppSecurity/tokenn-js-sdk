@@ -5,7 +5,7 @@ This is the JS SDK for Tokenn. We help you secure your applications by letting y
 ## Installation
 
 ### Node and Browserify
-Simply install the library with ``` $ npm i --save tokenn ```
+Simply install the library with ``` $ npm i --save tokenn-js-sdk ```
 
 NOTE: Take into account that security problems may rise if you use this library in the browser, so we do not encourage, nor we make responsible for any data loss derived from the utilization of the library in the browser.
 
@@ -13,7 +13,7 @@ NOTE: Take into account that security problems may rise if you use this library 
 
 Your app or API need security. Here's how it looks when you create an API:
 
-![How it works](./repo/howitworks.png)
+![How it works](https://raw.githubusercontent.com/TokennAppSecurity/tokenn-js-sdk/master/repo/afterinstalling.png)
 
 As you can see, intruders, as well as your clients and off course yourself can access your App/API.
 
@@ -23,7 +23,7 @@ In more technical words, with that API key system, you would validate that only 
 
 The following is how it looks after securing your app with an API key system:
 
-![After installing](./repo/afterinstalling.png)
+![After installing](https://raw.githubusercontent.com/TokennAppSecurity/tokenn-js-sdk/master/repo/howitworks.png)
 
 As you can see, now intruders, who do not have an Api Key for using your application cannot access it. Also, notice that we added Application Clients and Application Admin. With Tokenn, you can differentiate the applications that are going to access your app, and let other people create an API for your APP, Cool! So in this case, you would have your own API key for using your app, and you can generate as many API keys you want and give them to other people/apps/apis that are going to use your app.
 
